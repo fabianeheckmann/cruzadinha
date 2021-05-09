@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="dicas">
+            <h1>Preste atenção nessas dicas para obter a resposta correta:</h1>
+            <h3>Tente responder na ordem para um melhor desempenho.</h3>
+            <h3>1- sigla e inglês para Unidade central de processamento.<br>
+                2-sigla para o componente que Implementa as operações lógicas. <br>
+                3-Corresponde a uma memória local rápida do microprocessador.<br>
+                4-Conhecido por ser chamada de volátil.<br>
+                5-Conhecida por ser chamada de não volátil.<br>
+                6-Têm como principal característica a capacidade de permitir que dados sejam regravados no
+                dispositivo.<br>
+                7-Os processos para apagar e gravar dados são feitos eletricamente nessa memória.<br>
+                8-Não são voláteis e podem ser desconectados fisicamente do computador.<br>
+                9-Visa melhorar a performance geral do micro, permitindo que os periféricos transmitam dados diretamente
+                para a memória.
+                <br>
+                10-É um mecanismo fundamental para permitir à CPU acessar memórias e/ou periféricos externos.<br>
+                11-Permite identificar de qual o componente e a localização exata dentro dele.<br>
+                12-Circulam os dados que são recebidos ou enviados.<br>
+                13-Todas suas versões suportam o hiperprocessamento.<br>
+                14-Possui alto desempenho para Processamentos básicos no computador. <br>
+                15-Esta segmentação é como se fosse a presença de dois cérebros trabalhando em conjunto no dispositivo,
+                disponibilizando assim o dobro de desempenho. <br>
+                16-Possui quatro núcleos e trabalha com todos eles ao mesmo tempo.
+            </h3>
+        </div>
+        <div class="resposta">
+            digite a resposta aqui: <input type="text" name="" id="in_resultado">
+            <br><br>
+            <button onclick="verificar()">verificar</button>
+        </div>
+        <table class="base-table">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>8</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="ativa">
+                    <div id="memoriaM"></div>
+                </td>
+                <td></td>
+                <td>14</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>12</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>2</td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td>3</td>
+                <td class="ativa">
+                    <div id="regsR"></div>
+                </td>
+                <td class="ativa">
+                    <div id="regsE" " ></div></td>
+             <td class=" ativa">
+                        <div id="regsG" "></div></td>
+             <td class=" ativa">
+                            <div id="regsI" "></div></td>
+             <td class=" ativa">
+                                <div id="regsS" "></div></td>
+             <td class=" ativa">
+                                    <div id="regsT" "></div></td>
+             <td class=" ativa">
+                                        <div id="regsR2" "></div></td>
+             <td class=" ativa">
+                                            <div id="regsA" "></div></td>
+             <td class=" ativa">
+                                                <div id="regsD" "></div></td>
+             <td class=" ativa">
+                                                    <div id="regsO" "></div></td>
+             <td class=" ativa">
+                                                        <div id="regsR3" "></div></td>
+             <td class=" ativa">
+                                                            <div id="regsE2" "></div></td>
+             <td class=" ativa">
+                                                                <div id="regsS2" "></div></td>
+            <td>1</td>
+            <td class=" ativa">
+                                                                    <div id="cpuC"></div>
+                </td>
+                <td class="ativa">
+                    <div id="cpuP"></div>
+                </td>
+                <td class="ativa">
+                    <div id="cpuU"></div>
+                </td>
+                <td></td>
+
+
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="ativa">
+                    <div id="memoriaM2"></div>
+                </td>
+                <td></td>
+                <td class="ativa">
+                    <div id="i7"></div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="ativa">
+                    <div id="dataA"></div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="ativa">
+                    <div id="ulaL"></div>
+                </td>
+                <td></td>
+                <td></td>
+
+
+
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="ativa">
+                    <div id="memoriaO" "></div></td>
+            <td ></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class=" ativa">
+                        <div id="dataT"></div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>7</td>
+                <td class="ativa">
+                    <div id="flashF"></div>
+                </td>
+                <td class="ativa">
+                    <div id="flashL"></div>
+                </td>
+                <td class="ativa">
+                    <div id="ulaA"></div>
+                </td>
+                <td class="ativa">
+                    <div id="flashS"></div>
+                </td>
+                <td class="ativa">
+                    <div id="flashH"></div>
+                </td>
+
+
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="ativa">
+                    <div id="memoriaR"></div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="ativa">
+                    <div id="dataA2"></div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>13</td>
+                <td class="ativa">
+                    <div id="memoriaI"></div>
+                </td>
+                <td class="ativa">
+                    <div id="i5"></div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="ativa">
+                    <div id="dataAST"></div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+
+
+            </tr>
+            <tr>
+                <td></td>
+                <td>4</td>
+                <td class="ativa">
+                    <div id="ramR"></div>
+                </td>
+                <td class="ativa">
+                    <div id="ramA"></div>
+                </td>
+                <td class="ativa">
+                    <div id="ramM"></div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>16</td>
+                <td class="ativa">
+                    <div id="dataB"></div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="ativa">
+                    <div id="memoriaAST"></div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="ativa">
+                    <div id="quadQ"></div>
+                </td>
+                <td class="ativa">
+                    <div id="dataU"></div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>10</td>
+                <td></td>
+
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="ativa">
+                    <div id="memoriaD"></div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="ativa">
+                    <div id="quadU"></div>
+                </td>
+                <td class="ativa">
+                    <div id="dataS"></div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="ativa">
+                    <div id="csC"></div>
+                </td>
+                <td></td>
+
+
+
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>6</td>
+                <td class="ativa">
+                    <div id="epromE"></div>
+                </td>
+                <td class="ativa">
+                    <div id="epromP"></div>
+                </td>
+                <td class="ativa">
+                    <div id="epromR"></div>
+                </td>
+                <td class="ativa">
+                    <div id="epromO"></div>
+                </td>
+                <td class="ativa">
+                    <div id="epromM"></div>
+                </td>
+                <td>11</td>
+                <td class="ativa">
+                    <div id="adressA"></div>
+                </td>
+                <td class="ativa">
+                    <div id="adressD"></div>
+                </td>
+                <td class="ativa">
+                    <div id="adressD2"></div>
+                </td>
+                <td class="ativa">
+                    <div id="adressR"></div>
+                </td>
+                <td class="ativa">
+                    <div id="adressE"></div>
+                </td>
+                <td class="ativa">
+                    <div id="adressS"></div>
+                </td>
+                <td class="ativa">
+                    <div id="adressS2"></div>
+                </td>
+                <td class="ativa">
+                    <div id="adressAST"></div>
+                </td>
+                <td class="ativa">
+                    <div id="adressB"></div>
+                </td>
+                <td class="ativa">
+                    <div id="adressU"></div>
+                </td>
+                <td class="ativa">
+                    <div id="csS"></div>
+                </td>
+                <td></td>
+
+
+
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="ativa">
+                    <div id="memoriaAST2" "></div></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class=" ativa">
+                        <div id="quadD"></div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="ativa">
+                    <div id="memoriaM3" "></div></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class=" ativa">
+                        <div id="quadAST"></div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+
+
+            </tr>
+            <tr>
+                <td>9</td>
+                <td class="ativa">
+                    <div id="dmaD"></div>
+                </td>
+                <td class="ativa">
+                    <div id="dmaM"></div>
+                </td>
+                <td class="ativa">
+                    <div id="memoriaA"></div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="ativa">
+                    <div id="quadC"></div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="ativa">
+                    <div id="memoriaS"></div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>5</td>
+                <td class="ativa">
+                    <div id="romR"></div>
+                </td>
+                <td class="ativa">
+                    <div id="romO"></div>
+                </td>
+                <td class="ativa">
+                    <div id="romM"></div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="ativa">
+                    <div id="memoriaS2"></div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="ativa">
+                    <div id="quadR"></div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+
+            </tr>
+            <tr>
+                <td>15</td>
+                <td class="ativa">
+                    <div id="dualD"></div>
+                </td>
+                <td class="ativa">
+                    <div id="dualU"></div>
+                </td>
+                <td class="ativa">
+                    <div id="memoriaA2"></div>
+                </td>
+                <td class="ativa">
+                    <div id="dualL"></div>
+                </td>
+                <td class="ativa">
+                    <div id="dualAST"></div>
+                </td>
+                <td class="ativa">
+                    <div id="dualC"></div>
+                </td>
+                <td class="ativa">
+                    <div id="dualO"></div>
+                </td>
+                <td class="ativa">
+                    <div id="dualR"></div>
+                </td>
+                <td class="ativa">
+                    <div id="quadE"></div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+
+            </tr>
+
+
+
+
+
+        </table>
+    </div>
+</body>
+
+</html>
+<script>
+    function verificar() {
+        var resp = in_resultado.value;
+
+        if (resp == 'cpu') {
+
+            cpuC.innerHTML += `C`;
+            cpuP.innerHTML += `P`;
+            cpuU.innerHTML += `U`;
+
+
+        } else if (resp == 'ula') {
+
+            ulaL.innerHTML += `L`;
+            ulaA.innerHTML += `A`;
+
+        } else if (resp == 'registradores') {
+
+            regsR.innerHTML += `R`;
+            regsE.innerHTML += `E`;
+            regsG.innerHTML += `G`;
+            regsI.innerHTML += `I`;
+            regsS.innerHTML += `S`;
+            regsT.innerHTML += `T`;
+            regsR2.innerHTML += `R`;
+            regsA.innerHTML += `A`;
+            regsD.innerHTML += `D`;
+            regsO.innerHTML += `O`;
+            regsR3.innerHTML += `R`;
+            regsE2.innerHTML += `E`;
+            regsS2.innerHTML += `S`;
+
+        } else if (resp == 'ram') {
+
+            ramR.innerHTML += `R`;
+            ramA.innerHTML += `A`;
+            ramM.innerHTML += `M`;
+
+        } else if (resp == 'rom') {
+
+            romR.innerHTML += `R`;
+            romO.innerHTML += `O`;
+            romM.innerHTML += `M`;
+        } else if (resp == 'eprom') {
+
+            epromE.innerHTML += `E`;
+            epromP.innerHTML += `P`;
+            epromR.innerHTML += `R`;
+            epromO.innerHTML += `O`;
+            epromM.innerHTML += `M`;
+
+        } else if (resp == 'flash') {
+
+            flashF.innerHTML += `F`;
+            flashL.innerHTML += `L`;
+            flashS.innerHTML += `S`;
+            flashH.innerHTML += `H`;
+        } else if (resp == 'memoria de massa') {
+
+            memoriaM.innerHTML += `M`;
+            memoriaM2.innerHTML += `M`;
+            memoriaO.innerHTML += `O`;
+            memoriaR.innerHTML += `R`;
+            memoriaI.innerHTML += `I`;
+            memoriaAST.innerHTML += `*`;
+            memoriaD.innerHTML += `D`;
+            memoriaAST2.innerHTML += `*`;
+            memoriaM3.innerHTML += `M`;
+            memoriaA.innerHTML += `A`;
+            memoriaS.innerHTML += `S`;
+            memoriaS2.innerHTML += `S`;
+            memoriaA2.innerHTML += `A`;
+
+        } else if (resp == 'dma') {
+
+            dmaD.innerHTML += `D`;
+            dmaM.innerHTML += `M`;
+        } else if (resp == 'cs') {
+
+            csC.innerHTML += `C`;
+            csS.innerHTML += `S`;
+        } else if (resp == 'address bus') {
+
+            adressA.innerHTML += `A`;
+            adressD.innerHTML += `D`;
+            adressD2.innerHTML += `D`;
+            adressR.innerHTML += `R`;
+            adressE.innerHTML += `E`;
+            adressS.innerHTML += `S`;
+            adressS2.innerHTML += `S`;
+            adressAST.innerHTML += `*`;
+            adressB.innerHTML += `B`;
+            adressU.innerHTML += `U`;
+        } else if (resp == 'data bus') {
+
+            dataA.innerHTML += `A`;
+            dataT.innerHTML += `T`;
+            dataA2.innerHTML += `A`;
+            dataAST.innerHTML += `*`;
+            dataB.innerHTML += `B`;
+            dataU.innerHTML += `U`;
+            dataS.innerHTML += `S`;
+        } else if (resp == 'i5') {
+
+            i5.innerHTML += `5`;
+        } else if (resp == 'i7') {
+            i7.innerHTML += `7`;
+        } else if (resp == 'quad core') {
+
+            quadQ.innerHTML += `Q`;
+            quadU.innerHTML += `U`;
+            quadD.innerHTML += `D`;
+            quadAST.innerHTML += `*`;
+            quadC.innerHTML += `C`;
+            quadR.innerHTML += `R`;
+            quadE.innerHTML += `E`;
+        } else if (resp == 'dual core') {
+
+            dualD.innerHTML += `D`;
+            dualU.innerHTML += `U`;
+            dualL.innerHTML += `L`;
+            dualAST.innerHTML += `*`;
+            dualC.innerHTML += `C`;
+            dualO.innerHTML += `O`;
+            dualR.innerHTML += `R`;
+        }
+
+
+        else {
+            alert('resposta errada!');
+        }
+
+
+
+
+
+
+    }
+</script>
